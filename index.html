@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Electrical Energy Engineering student portfolio focused on power systems, renewable energy, and structured technical analysis." />
+    <!-- Fonts and base metadata for the portfolio page -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Peter Rabee Khneifes | Electrical Energy Engineering</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Sticky top navigation with language + theme toggles -->
+    <header class="topbar">
+        <a class="brand" href="#hero">Peter Rabee Khneifes</a>
+        <nav class="topnav" aria-label="Main Navigation">
+            <a href="#projects" data-i18n="navProjects">Projects</a>
+            <a href="#skills" data-i18n="navSkills">Skills</a>
+            <a href="#contact" data-i18n="navContact">Contact</a>
+            <a href="photos/assets/CV.pdf" download data-i18n="navCv">Download CV</a>
+            <div class="toggles" aria-label="Language and Theme">
+                <button id="langToggle" class="ghost-btn" type="button" aria-pressed="false">AR</button>
+                <button id="themeToggle" class="ghost-btn" type="button" aria-pressed="false">Dark</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page">
+        <!-- Hero section with intro and quick actions -->
+        <section class="hero" id="hero">
+            <div class="hero-photo-wrap">
+                <img src="photos/assets/imgs/83b8bbcbd3588914c7544a47d90469a9.jpg" alt="Peter Rabee Khneifes" class="hero-photo" loading="lazy" />
+            </div>
+            <div class="hero-content">
+                <p class="eyebrow" data-i18n="heroTag">Electrical Energy Engineering</p>
+                <h1 data-i18n="heroTitle">Electrical Energy Engineering Student | Power Systems & Renewable Energy Focus</h1>
+                <p class="hero-sub" data-i18n="heroSub">
+                    Technically solid junior engineer with a structured, data-driven approach to building scalable and feasible energy solutions.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects" data-i18n="heroBtnProjects">View Projects</a>
+                    <a class="btn btn-secondary" href="photos/assets/CV.pdf" download data-i18n="heroBtnCv">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="section" id="about">
+            <h2 data-i18n="aboutTitle">About Me</h2>
+            <p data-i18n="aboutText">
+                I am an Electrical Energy Engineering student focused on power systems, renewable energy, and practical energy analysis. My academic training combines core electrical engineering fundamentals with applied coursework in load behavior, energy conversion, and system performance evaluation. I work with a structured problem-solving method: define the problem clearly, analyze technical constraints, compare feasible options, and prioritize solutions that can be implemented reliably. Alongside technical learning, I maintain an entrepreneurial mindset centered on feasibility, cost awareness, and long-term scalability. I am interested in projects where engineering decisions are supported by data, clear assumptions, and measurable outcomes. My objective is to contribute as a dependable junior engineer while continuing to build depth in modern energy systems and analytical project execution.
+            </p>
+        </section>
+
+        <!-- Projects section -->
+        <section class="section" id="projects">
+            <h2 data-i18n="projectsTitle">Projects</h2>
+
+            <article class="card">
+                <h3 data-i18n="p1Title">Smart Load Forecasting for University Building</h3>
+                <p><strong data-i18n="labelProblem">Problem Definition:</strong> <span data-i18n="p1Problem">Energy demand varied by season and schedule, creating inefficient load planning.</span></p>
+                <p><strong data-i18n="labelApproach">Technical Approach:</strong> <span data-i18n="p1Approach">Built a structured consumption baseline and segmented demand by time blocks, occupancy, and weather context.</span></p>
+                <p><strong data-i18n="labelTools">Tools / Methods Used:</strong> <span data-i18n="p1Tools">Excel modeling, time-series comparison, basic statistical validation, load profiling.</span></p>
+                <p><strong data-i18n="labelBusiness">Business Perspective:</strong> <span data-i18n="p1Business">The model can scale to similar facilities as a low-cost decision-support layer for scheduling and energy budgeting.</span></p>
+                <p><strong data-i18n="labelStatus">Current Status:</strong> <span data-i18n="p1Status">Prototype</span></p>
+            </article>
+
+            <article class="card">
+                <h3 data-i18n="p2Title">Hybrid Solar-Diesel Feasibility Study</h3>
+                <p><strong data-i18n="labelProblem2">Problem Definition:</strong> <span data-i18n="p2Problem">High fuel dependency increased operational cost and introduced supply risk.</span></p>
+                <p><strong data-i18n="labelApproach2">Technical Approach:</strong> <span data-i18n="p2Approach">Compared baseline diesel-only performance against hybrid configurations using demand assumptions and peak-load constraints.</span></p>
+                <p><strong data-i18n="labelTools2">Tools / Methods Used:</strong> <span data-i18n="p2Tools">Energy yield estimation, cost-benefit matrix, sensitivity checks, system sizing logic.</span></p>
+                <p><strong data-i18n="labelBusiness2">Business Perspective:</strong> <span data-i18n="p2Business">Feasibility depends on fuel price trends and payback period; strongest case is for sites with stable daytime demand.</span></p>
+                <p><strong data-i18n="labelStatus2">Current Status:</strong> <span data-i18n="p2Status">Development Phase</span></p>
+            </article>
+
+            <article class="card">
+                <h3 data-i18n="p3Title">Energy Monitoring Web Application</h3>
+                <p><strong data-i18n="labelProblem3">Problem Definition:</strong> <span data-i18n="p3Problem">Small teams often lack a simple interface to track usage trends and performance indicators.</span></p>
+                <p><strong data-i18n="labelApproach3">Technical Approach:</strong> <span data-i18n="p3Approach">Designing a modular dashboard flow for data entry, visualization, and monthly trend interpretation.</span></p>
+                <p><strong data-i18n="labelTools3">Tools / Methods Used:</strong> <span data-i18n="p3Tools">Frontend web stack, KPI structuring, practical workflow mapping.</span></p>
+                <p><strong data-i18n="labelBusiness3">Business Perspective:</strong> <span data-i18n="p3Business">A lightweight subscription model is feasible for small organizations needing basic monitoring without enterprise complexity.</span></p>
+                <p><strong data-i18n="labelStatus3">Current Status:</strong> <span data-i18n="p3Status">Application currently in development.</span></p>
+            </article>
+        </section>
+
+        <!-- Work in progress -->
+        <section class="section" id="wip">
+            <h2 data-i18n="wipTitle">Work in Progress</h2>
+            <ul class="plain-list">
+                <li data-i18n="wip1">Ideas under validation: low-cost energy auditing workflow for small facilities.</li>
+                <li data-i18n="wip2">Ongoing research: practical comparison of storage sizing strategies in mixed-load scenarios.</li>
+                <li data-i18n="wip3">Technical experiments: simplified fault-pattern logging for educational power networks.</li>
+                <li data-i18n="wip4">Early-stage drafts: project templates linking technical KPIs to feasibility indicators.</li>
+            </ul>
+        </section>
+
+        <!-- Skills section -->
+        <section class="section" id="skills">
+            <h2 data-i18n="skillsTitle">Skills</h2>
+            <div class="grid-3">
+                <article class="card">
+                    <h3 data-i18n="skillsTech">Technical Skills</h3>
+                    <ul class="plain-list">
+                        <li data-i18n="skillsTech1">Power Systems Analysis</li>
+                        <li data-i18n="skillsTech2">Load Calculations</li>
+                        <li data-i18n="skillsTech3">Renewable Energy Fundamentals</li>
+                        <li data-i18n="skillsTech4">Circuit Analysis</li>
+                        <li data-i18n="skillsTech5">Simulation Tools (academic level)</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="skillsAnalytical">Analytical Skills</h3>
+                    <ul class="plain-list">
+                        <li data-i18n="skillsAnalytical1">Feasibility Assessment</li>
+                        <li data-i18n="skillsAnalytical2">Cost-Benefit Analysis</li>
+                        <li data-i18n="skillsAnalytical3">Structured Problem Solving</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="skillsEntre">Entrepreneurial Skills</h3>
+                    <ul class="plain-list">
+                        <li data-i18n="skillsEntre1">Business Model Structuring</li>
+                        <li data-i18n="skillsEntre2">Market Gap Identification</li>
+                        <li data-i18n="skillsEntre3">Project Planning</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- Certifications section -->
+        <section class="section" id="certifications">
+            <h2 data-i18n="certTitle">Certifications</h2>
+            <div class="stack">
+                <article class="card">
+                    <h3 data-i18n="cert1Title">Solar Energy Course</h3>
+                    <p><strong data-i18n="certLabelKnowledge">Key knowledge gained:</strong> <span data-i18n="cert1Knowledge">PV fundamentals, yield estimation principles, and system component roles.</span></p>
+                    <p><strong data-i18n="certLabelApplication">Practical application:</strong> <span data-i18n="cert1Application">Applied concepts in preliminary hybrid-system sizing exercises.</span></p>
+                    <p><strong data-i18n="certLabelImpact">Skill impact:</strong> <span data-i18n="cert1Impact">Improved technical confidence in renewable-system evaluation.</span></p>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="cert2Title">Electrical Installations Course</h3>
+                    <p><strong data-i18n="certLabelKnowledge2">Key knowledge gained:</strong> <span data-i18n="cert2Knowledge">Wiring logic, safety principles, and practical installation workflow.</span></p>
+                    <p><strong data-i18n="certLabelApplication2">Practical application:</strong> <span data-i18n="cert2Application">Used installation standards to review system layouts for small-scale setups.</span></p>
+                    <p><strong data-i18n="certLabelImpact2">Skill impact:</strong> <span data-i18n="cert2Impact">Strengthened execution quality and design realism.</span></p>
+                </article>
+                <article class="card">
+                    <h3 data-i18n="cert3Title">Entrepreneurship Certificate</h3>
+                    <p><strong data-i18n="certLabelKnowledge3">Key knowledge gained:</strong> <span data-i18n="cert3Knowledge">Opportunity framing, basic business modeling, and structured validation.</span></p>
+                    <p><strong data-i18n="certLabelApplication3">Practical application:</strong> <span data-i18n="cert3Application">Applied feasibility-first thinking in project scoping and priorities.</span></p>
+                    <p><strong data-i18n="certLabelImpact3">Skill impact:</strong> <span data-i18n="cert3Impact">Improved ability to align technical choices with practical outcomes.</span></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Opportunities section -->
+        <section class="section" id="opportunities">
+            <h2 data-i18n="lookingTitle">What I’m Looking For</h2>
+            <p data-i18n="lookingText">
+                Open to entry-level engineering roles in Power Systems, Renewable Energy, and Technical Analysis within Europe.
+            </p>
+        </section>
+
+        <!-- Contact section -->
+        <section class="section" id="contact">
+            <h2 data-i18n="contactTitle">Contact</h2>
+            <ul class="plain-list">
+                <li><strong data-i18n="contactEmailLabel">Email:</strong> <a href="mailto:peterxkh@gmail.com">peterxkh@gmail.com</a></li>
+                <li><strong data-i18n="contactLinkedinLabel">LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank" rel="noopener">linkedin.com/in/peter-rabee-khneifes</a></li>
+                <li><strong data-i18n="contactCvLabel">CV:</strong> <a href="photos/assets/CV.pdf" download data-i18n="contactCvValue">Download 1-page PDF CV</a></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
