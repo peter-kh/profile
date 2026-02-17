@@ -267,7 +267,6 @@ h3 {
 }
 
 .dark .card {
-     background: linear-gradient(140deg, rgba(184, 176, 104, 0.92), rgba(50, 77, 158, 0.92), rgba(0, 0, 0, 0.92));
     border: 1px solid var(--line);
     outline: 1px solid var(--edge);
     border-radius: var(--radius);
